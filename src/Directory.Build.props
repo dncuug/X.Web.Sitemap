@@ -1,0 +1,24 @@
+<Project>
+
+    <PropertyGroup>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageIcon>x-web.png</PackageIcon>
+
+        <Authors>Andrew Gubskiy</Authors>
+        <Copyright>Andrew Gubskiy © 2024</Copyright>
+        <Company>Ukrainian .NET Developer Community</Company>
+
+        <Version>2.10.3</Version>
+        <AssemblyVersion>2.10.3</AssemblyVersion>
+        <FileVersion>2.10.3</FileVersion>
+        <PackageVersion>2.10.3</PackageVersion>
+
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/ernado-x/X.Web.Sitemap.git</RepositoryUrl>
+        <PackageProjectUrl>https://andrew.gubskiy.com/open-source</PackageProjectUrl>
+    </PropertyGroup>
+
+</Project>

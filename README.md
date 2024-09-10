@@ -1,14 +1,10 @@
-[![NuGet version](https://badge.fury.io/nu/xsitemap.svg)](https://badge.fury.io/nu/xsitemap)
-[![Part of awesome .NET Core](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/thangchung/awesome-dotnet-core#tools)
+# X.Web.Sitemap
+
+[![NuGet Version](http://img.shields.io/nuget/v/X.Web.Sitemap.svg?style=flat)](https://www.nuget.org/packages/X.Web.Sitemap/)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/andrew_gubskiy.svg?style=social&label=Follow%20me!)](https://twitter.com/intent/user?screen_name=andrew_gubskiy)
 
-# X.Web.Sitemap 
 
-Simple sitemap generator for .NET
-
-⚠️ **See breaking changes for [release 2.9.2](https://github.com/ernado-x/X.Web.Sitemap/releases/tag/v2.9.2)**
-
-You can download it from nuget.org at http://nuget.org/packages/xsitemap/
+X.Web.Sitemap is a library for generating and managing sitemaps in .NET applications.
 
 ## Usage example
 
@@ -23,9 +19,9 @@ Below is an example of basic usage in a non-testable manner
 
             sitemap.Add(new Url
                 {
-                    ChangeFrequency = ChangeFrequency.Daily,
+                    ChangeFrequency = ChangeFrequency.Hourly,
                     Location = "http://www.example.com",
-                    Priority = 0.5,
+                    Priority = 0.8,
                     TimeStamp = DateTime.Now
                 });
 
